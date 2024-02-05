@@ -26,14 +26,14 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 5px 5px #4A1861;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
-    display: flex;
-    justify-content: space-between;
-    align-item: baseline;
 }
 
 h1 {
@@ -51,6 +51,7 @@ h1 {
 
 #menu > li {
     margin-bottom: 0.5em;
+    list-style-type: none;
 }
 
 .active {
@@ -79,7 +80,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 
@@ -100,6 +101,7 @@ nav {
 main {
     background-color: #FFFFFF;
     flex: 1 0 auto;
+    margin-top: 60px;
 }
 
 /* Footer */
