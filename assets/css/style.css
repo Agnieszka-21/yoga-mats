@@ -15,27 +15,33 @@ body {
     flex-direction: column;
     /* Generic project styles */
     font-family: 'Schibsted Grotesk', sans-serif;
-    color: #000000;
+    color: #101C24;
 }
 
 /* Header */
 header {
     background-color: #6CB9F0;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 5px 5px #101C24;
 }
 
 h1 {
     font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
 }
 
 /* Main content */
 main {
-    background-color: #1DF049;
+    background-color: #FFFFFF;
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color: #1DF0D8;
+    background-color: #6CB9F0;
     width: 100%;
     /* Make the footer stick to the bottom of the page and be always visible */
     position: fixed;
