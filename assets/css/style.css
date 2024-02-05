@@ -1,0 +1,21 @@
+/* Asterisk wildcard selector to override default styles added by browser*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #6CB9F0;
+}
+
+/* Main content */
+main {
+    background-color: #1DF049;
+}
+
+/* Footer */
+footer {
+    background-color: #1DF0D8;
+}
