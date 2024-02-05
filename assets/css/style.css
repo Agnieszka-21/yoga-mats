@@ -150,3 +150,10 @@ footer {
         margin-top: 120px;
     }
 }
+
+/* For laptops and larger */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        font-weight: bold;
+    }
+}
