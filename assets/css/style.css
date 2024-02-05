@@ -31,6 +31,9 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-item: baseline;
 }
 
 h1 {
@@ -53,6 +56,45 @@ h1 {
 .active {
     font-weight: bold;
 }
+
+/* Nav bar stylesfrom Love Running */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 5px 5px #4A1861;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle from Love Running */
+#nav-toggle:checked ~ nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+
+/* Hiding class, making content visible to screen-readers but not visually 
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+*/
+
 
 /* Main content */
 main {
