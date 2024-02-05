@@ -50,7 +50,10 @@ h1 {
 }
 
 #menu > li {
-    margin-bottom: 0.5em;
+    margin-bottom: 2em;
+}
+
+.dropdown-content {
     list-style-type: none;
 }
 
@@ -61,7 +64,7 @@ h1 {
 /* Nav bar stylesfrom Love Running */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #6CB9F0;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -111,4 +114,26 @@ footer {
     /* Make the footer stick to the bottom of the page and be always visible */
     position: fixed;
     bottom: 0;
+}
+
+/* Media queries for responsive design */
+
+/* For tablets and larger */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
 }
