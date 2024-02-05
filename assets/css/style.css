@@ -25,7 +25,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 5px 5px #101C24;
+    box-shadow: 0 5px 5px #4A1861;
 }
 
 header a {
@@ -38,6 +38,16 @@ h1 {
     text-transform: uppercase;
     color: #4A1861;
     font-size: 130%;
+}
+
+#menu {
+    list-style-type: none;
+    font-size: 110%;
+    margin-top: 1em;
+}
+
+#menu > li {
+    margin-bottom: 0.5em;
 }
 
 /* Main content */
