@@ -120,6 +120,14 @@ footer {
 
 /* For tablets and larger */
 @media screen and (min-width: 768px) {
+    /* Bigger logo */
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    
+    /* Nav bar*/
     nav {
         display: block;
         position: relative;
@@ -135,5 +143,10 @@ footer {
     }
     .nav-toggle-label {
         display: none;
+    }
+
+    /* Main content */
+    main {
+        margin-top: 120px;
     }
 }
