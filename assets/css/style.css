@@ -1,8 +1,15 @@
-/* Asterisk wildcard selector to override default styles added by browser*/
+/* Asterisk wildcard selector to override default styles added by browser - copied from the Code Institute's Love Running project*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* General styles - copied from the Code Institute's Love Running project */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -13,9 +20,14 @@ header {
 /* Main content */
 main {
     background-color: #1DF049;
+    flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
     background-color: #1DF0D8;
+    width: 100%;
+    /* Make the footer stick to the bottom of the page and be always visible */
+    position: fixed;
+    bottom: 0;
 }
