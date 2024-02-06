@@ -20,12 +20,12 @@ body {
 
 /* Header */
 header {
-    background-color: #6CB9F0;
-    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    padding: 1rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 5px 5px #4A1861;
+    box-shadow: 0 5px 5px #101C24;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -64,7 +64,7 @@ h1 {
 /* Nav bar stylesfrom Love Running */
 nav {
     position: absolute;
-    background-color: #6CB9F0;
+    background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -114,7 +114,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #6CB9F0;
+    background-color: #ffffff;
     width: 100%;
     /* Make the footer stick to the bottom of the page and be always visible */
     position: fixed;
