@@ -102,9 +102,14 @@ nav {
 
 /* Main content */
 main {
-    background-color: #FFFFFF;
     flex: 1 0 auto;
     margin-top: 60px;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url('../images/yoga-mats-1920.webp') no-repeat center center / cover;
 }
 
 /* Footer */
@@ -125,8 +130,8 @@ footer {
 }
 
 #social-media i {
-    font-size: 160%;
-    padding: 5%;
+    font-size: 130%;
+    padding: 2%;
     color: #101C24;
 }
 
