@@ -36,11 +36,18 @@ header a {
     color: inherit;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Libre Franklin', sans-serif;
     text-transform: uppercase;
     color: #4A1861;
     font-size: 130%;
+}
+
+h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    text-transform: lowercase;
+    color: #4A1861;
+    font-size: 100%;
 }
 
 #menu {
@@ -49,7 +56,7 @@ h1 {
     margin-top: 1em;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 2em;
 }
 
@@ -61,7 +68,7 @@ h1 {
     font-weight: bold;
 }
 
-/* Nav bar stylesfrom Love Running */
+/* Nav bar styles from Love Running */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -74,7 +81,7 @@ nav {
 }
 
 /* Nav toggle from Love Running */
-#nav-toggle:checked ~ nav {
+#nav-toggle:checked~nav {
     display: block;
 }
 
@@ -110,6 +117,18 @@ main {
     height: 600px;
     width: 100%;
     background: url('../images/yoga-mats-1920.webp') no-repeat center center / cover;
+    position: relative;
+}
+
+/* Cover text for hero image - based on Love Running */
+#cover-text {
+    background-color: rgba(252, 242, 255, 0.8);
+    font-size: 130%;
+    position: absolute;
+    top: 50px;
+    width: 70%;
+    min-height: 120px;
+    padding: 20px 20px;
 }
 
 /* Footer */
@@ -139,13 +158,14 @@ footer {
 
 /* For tablets and larger */
 @media screen and (min-width: 768px) {
+
     /* Bigger logo */
     #logo {
         font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    
+
     /* Nav bar*/
     nav {
         display: block;
@@ -154,12 +174,15 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
     }
-    #menu > li {
+
+    #menu>li {
         padding-left: 1rem;
     }
+
     .nav-toggle-label {
         display: none;
     }
@@ -167,6 +190,12 @@ footer {
     /* Main content */
     main {
         margin-top: 120px;
+    }
+
+    /* Cover text for hero section */
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
