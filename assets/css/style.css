@@ -111,6 +111,7 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 60px;
+    margin-bottom: 70px;
 }
 
 #hero {
@@ -129,6 +130,27 @@ main {
     width: 70%;
     min-height: 120px;
     padding: 20px 20px;
+}
+
+/* From Love Running, styling for the entire section */
+#mat-types {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#mat-types h2 {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 110%;
+}
+
+#thickness > div, #materials > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /* Footer */
