@@ -112,6 +112,9 @@ main {
     flex: 1 0 auto;
     margin-top: 60px;
     margin-bottom: 70px;
+    /* Make display flex to help style contact page */
+    display: flex;
+    flex-direction: column;
 }
 
 #hero {
@@ -154,10 +157,25 @@ main {
     font-weight: bold;
 }
 
-/* Green mat image on mobile devices */
+/* Green mat image on mobile devices - home */
 #green-mat img, #woman-mat img {
     width: 100%;
     margin-bottom: 20px;
+}
+
+/* Contact page */
+#contact {
+    background-image: url('../images/green-mat-2560.webp');
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex: 1;
+}
+
+#contact-form {
+    color: ;
+    background-color:rgba(252, 242, 255, 0.8);
+    padding: 30px;
 }
 
 /* Footer */
