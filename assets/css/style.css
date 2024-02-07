@@ -149,8 +149,15 @@ main {
     margin-bottom: 20px;
 }
 
+/* Bold text in paragraphs */
 .bold {
     font-weight: bold;
+}
+
+/* Green mat image on mobile devices */
+#green-mat img {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 /* Footer */
