@@ -280,6 +280,19 @@ footer {
         width: 300px;
         right: 50px;
     }
+
+    /* Contact page - not finished yet */
+    #contact {
+        background-position: center;
+        position: relative;
+    }
+
+    #contact-form {
+        position: absolute;
+        right: 10%;
+        top: 150px;
+        max-width: 600px;
+    }
 }
 
 /* For laptops and larger */
@@ -292,5 +305,15 @@ footer {
     #mat-types {
         column-count: 2;
         column-gap: 50px;
+    }
+
+    /* Contact page - hover - not finished yet, revisit */
+    .text-input:hover, textarea-input:hover {
+        border-color: #4A1861;
+    }
+
+    .submit-button:hover {
+        background-color: #101C24;
+        color: #fff;
     }
 }
