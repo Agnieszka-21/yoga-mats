@@ -155,7 +155,7 @@ main {
 }
 
 /* Green mat image on mobile devices */
-#green-mat img {
+#green-mat img, #woman-mat img {
     width: 100%;
     margin-bottom: 20px;
 }
@@ -232,5 +232,11 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         font-weight: bold;
+    }
+
+    /* Styling for mat-types div on the home page */
+    #mat-types {
+        column-count: 2;
+        column-gap: 50px;
     }
 }
