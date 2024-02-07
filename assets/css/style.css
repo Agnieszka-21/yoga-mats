@@ -163,7 +163,7 @@ main {
     margin-bottom: 20px;
 }
 
-/* Contact page */
+/* Contact page - based on Love Running sign-up page*/
 #contact {
     background-image: url('../images/green-mat-2560.webp');
     background-size: cover;
@@ -173,9 +173,45 @@ main {
 }
 
 #contact-form {
-    color: ;
+    color: #101C24;
     background-color:rgba(252, 242, 255, 0.8);
     padding: 30px;
+}
+
+#contact-form > h2 {
+    color: #4A1861;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+}
+
+.text-input {
+    background: transparent;
+    color: #101C24;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #101C24;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.textarea-input {
+    background: transparent;
+    color: #101C24;
+    width: 100%;
+    height: 125px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #101C24;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.submit-button {
+    padding: 10px 30px;
+    font-size: 100%;
+    border-radius: 10px;
+    background-color: #4A1861;
+    color: #fff;
 }
 
 /* Footer */
