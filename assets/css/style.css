@@ -194,6 +194,7 @@ main {
     border: 1px solid #101C24;
     border-radius: 10px;
     padding: 0 5px;
+    font-family: 'Schibsted Grotesk', sans-serif;
 }
 
 .textarea-input {
@@ -205,6 +206,7 @@ main {
     border: 1px solid #101C24;
     border-radius: 10px;
     padding: 0 5px;
+    font-family: 'Schibsted Grotesk', sans-serif;
 }
 
 .submit-button {
