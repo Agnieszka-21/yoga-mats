@@ -183,6 +183,35 @@ main {
     margin-left: 20px;
 }
 
+/* Table styling - still needs to grow on mobile so it fills the space */
+table {
+    font-size: 50%;
+    text-indent: 0%;
+}
+
+th {
+    text-align: left;
+    padding: 2px 5px;
+    line-height: 8px;
+}
+
+td {
+    text-align: center;
+    line-height: 8px;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+
 #video-tutorial > video  {
     width: 90vw;
 }
