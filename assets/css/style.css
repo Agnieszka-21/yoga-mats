@@ -111,7 +111,8 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 60px;
-    margin-bottom: 70px;
+    margin-bottom: 52px;
+    padding-bottom: 20px;
     /* Make display flex to help style contact page */
     display: flex;
     flex-direction: column;
@@ -168,7 +169,7 @@ main {
     background-image: url('../images/green-mat-2560.webp');
     background-size: cover;
     background-position: 75%;
-    padding: 20px 10% 0 10%;
+    padding: 15px 5% 5px 5%;
     flex: 1;
 }
 
@@ -297,6 +298,8 @@ footer {
 
 /* For laptops and larger */
 @media screen and (min-width: 992px) {
+    
+    /* Styling for the nav bar */
     #menu a:hover {
         font-weight: bold;
     }
@@ -308,12 +311,17 @@ footer {
     }
 
     /* Contact page - hover - not finished yet, revisit */
-    .text-input:hover, textarea-input:hover {
-        border-color: #4A1861;
+    .text-input:hover, .textarea-input:hover {
+        border-color: #B4B535;
     }
 
     .submit-button:hover {
-        background-color: #101C24;
-        color: #fff;
+        background-color: #B4B535;
+        color: #101C24;;
+    }
+
+    /* Contact-form */
+    #contact-form {
+        top: 5vh;
     }
 }
