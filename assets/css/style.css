@@ -136,7 +136,7 @@ main {
     padding: 20px 20px;
 }
 
-/* From Love Running, styling for the entire section */
+/* From Love Running, styling for the entire section - will be the same on the choose-mat page */
 #mat-types {
     width: 90%;
     margin: 20px auto;
@@ -162,6 +162,25 @@ main {
 #green-mat img, #woman-mat img {
     width: 100%;
     margin-bottom: 20px;
+}
+
+/* Choose-mat page */
+#choose-mat {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#choose-mat > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#questions-list {
+    margin-left: 20px;
+}
+
+#video-tutorial > video  {
+    width: 90vw;
 }
 
 /* Contact page - based on Love Running sign-up page*/
