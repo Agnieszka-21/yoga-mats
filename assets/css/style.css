@@ -175,6 +175,10 @@ main {
     margin-bottom: 20px;
 }
 
+#top-div {
+    margin-top: 15px;
+}
+
 #questions-list {
     margin-left: 20px;
 }
@@ -329,6 +333,15 @@ footer {
     #mat-types {
         column-count: 2;
         column-gap: 50px;
+    }
+
+    /* Styling for choose-mat div on the choose-mat page */
+    #choose-mat {
+        max-width: 800px;
+    }
+
+    #video-tutorial > video {
+        max-width: 800px;
     }
 
     /* Contact page - hover - not finished yet, revisit */
