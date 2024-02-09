@@ -131,6 +131,7 @@ main {
     font-size: 130%;
     position: absolute;
     top: 50px;
+    right: 0;
     width: 70%;
     min-height: 120px;
     padding: 20px 20px;
@@ -143,6 +144,7 @@ main {
 }
 
 #mat-types h2 {
+    margin-top: 10px;
     margin-bottom: 20px;
     text-align: left;
     font-size: 110%;
