@@ -215,8 +215,20 @@ td {
     color: red;
 }
 
-#video-tutorial > video  {
-    width: 90vw;
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* Contact page - based on Love Running sign-up page*/
@@ -372,7 +384,7 @@ footer {
         max-width: 800px;
     }
 
-    #video-tutorial > video {
+    .video-container > iframe {
         max-width: 800px;
     }
 
