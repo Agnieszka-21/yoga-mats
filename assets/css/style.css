@@ -25,7 +25,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 5px 5px #101C24;
+    box-shadow: 0 5px 5px #4A1861;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -91,6 +91,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 1.5rem;
+    color: #4A1861;
 }
 
 
@@ -291,7 +292,7 @@ footer {
 #social-media i {
     font-size: 130%;
     padding: 2%;
-    color: #101C24;
+    color: #4A1861;
 }
 
 /* Media queries for responsive design */
