@@ -187,34 +187,54 @@ main {
 }
 
 /* Table styling - still needs to grow on mobile so it fills the space */
+#comparison-table {
+    display: flex;
+}
+
 table {
     font-size: 50%;
     text-indent: 0%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-bottom: 20px;
+}
+
+thead th {
+    text-decoration: underline;
 }
 
 th {
-    text-align: left;
+    text-align: center;
     padding: 2px 5px;
-    line-height: 8px;
+    line-height: 12px;
+}
+
+.th-left {
+    text-align: left;
 }
 
 td {
     text-align: center;
-    line-height: 8px;
+    line-height: 12px;
+}
+
+table i {
+    font-size: 170%;
 }
 
 .green {
-    color: green;
+    color: #79DE79;
 }
 
 .yellow {
-    color: yellow;
+    color: #FCFC99;
 }
 
 .red {
-    color: red;
+    color: #FB6962;
 }
 
+/* Video - embedded from YouTube */
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -349,6 +369,16 @@ footer {
     #cover-text {
         width: 300px;
         right: 50px;
+    }
+
+    /* Responsive table on the choose-mat page */
+    table {
+        flex-grow: 0.5;
+        font-size: 90%;
+    }
+
+    th, td {
+        line-height: 30px;
     }
 
     /* Contact page - not finished yet */
