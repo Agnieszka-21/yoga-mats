@@ -1,4 +1,4 @@
-/* Google fonts */
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Schibsted+Grotesk:ital,wght@0,400;0,700;1,400&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by browser - copied from the Code Institute's Love Running project*/
@@ -36,7 +36,8 @@ header a {
     color: inherit;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Libre Franklin', sans-serif;
     text-transform: uppercase;
     color: #4A1861;
@@ -152,7 +153,8 @@ main {
     font-size: 110%;
 }
 
-#thickness > div, #materials > div {
+#thickness>div,
+#materials>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -163,7 +165,8 @@ main {
 }
 
 /* Yoga-grey image on mobile devices - home */
-#yoga-grey img, #woman-mat img {
+#yoga-grey img,
+#woman-mat img {
     width: 100%;
     margin-bottom: 20px;
 }
@@ -174,7 +177,7 @@ main {
     margin: 20px auto;
 }
 
-#choose-mat > div {
+#choose-mat>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -271,11 +274,11 @@ table i {
 
 #contact-form {
     color: #101C24;
-    background-color:rgba(252, 242, 255, 0.8);
+    background-color: rgba(252, 242, 255, 0.8);
     padding: 30px;
 }
 
-#contact-form > h2 {
+#contact-form>h2 {
     color: #4A1861;
     margin-bottom: 20px;
     text-transform: lowercase;
@@ -301,7 +304,7 @@ table i {
     margin: 5px 0 20px 0;
     border: 1px solid #101C24;
     border-radius: 10px;
-    padding: 0 5px; 
+    padding: 0 5px;
     font-family: 'Schibsted Grotesk', sans-serif;
 }
 
@@ -346,7 +349,7 @@ footer {
     margin: 100px auto 20px auto;
 }
 
-#thank-you-main > div {
+#thank-you-main>div {
     line-height: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -458,13 +461,23 @@ a {
         font-size: 200%;
     }
 
+    /* Choose-mat page, h2 lower*/
+    #choose-mat h2 {
+        margin-top: 35px;
+    }
+
+    #questions-list li {
+        padding-bottom: 5px;
+    }
+
     /* Responsive table on the choose-mat page */
     table {
         flex-grow: 0.5;
         font-size: 90%;
     }
 
-    th, td {
+    th,
+    td {
         line-height: 30px;
     }
 
@@ -490,11 +503,11 @@ a {
     #error-main {
         margin: 150px auto 20px auto;
     }
-    }
+}
 
 /* For laptops and larger */
 @media screen and (min-width: 992px) {
-    
+
     /* Styling for the nav bar */
     #menu a:hover {
         font-weight: bold;
@@ -511,18 +524,20 @@ a {
         max-width: 800px;
     }
 
-    .video-container > iframe {
+    .video-container>iframe {
         max-width: 800px;
     }
 
     /* Contact page - hover - not finished yet, revisit */
-    .text-input:hover, .textarea-input:hover {
+    .text-input:hover,
+    .textarea-input:hover {
         border-color: #B4B535;
     }
 
     .submit-button:hover {
         background-color: #B4B535;
-        color: #101C24;;
+        color: #101C24;
+        ;
     }
 
     /* Contact-form */
@@ -533,19 +548,20 @@ a {
     /* Thank you page */
     /* Larger top-margin so that the section is fully visible under the nav bar */
     #thank-you-main {
-        margin: 180px auto 20px auto;
+        margin-top: 180px;
     }
 
     #thank-you-main h2 {
         font-size: 180%;
     }
 
-        /* 404 error page - page not found */
-        /* Larger top-margin so that the section is fully visible under the nav bar */
-        #error-main {
-            margin: 180px auto 20px auto;
-        }
+    /* 404 error page - page not found */
+    /* Larger top-margin so that the section is fully visible under the nav bar */
+    #error-main {
+        margin-top: 180px;
+    }
     
-        #error-main h2 {
-            font-size: 180%;
-}
+    #error-main h2 {
+        font-size: 180%;
+    }
+}    
