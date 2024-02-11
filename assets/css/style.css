@@ -436,6 +436,12 @@ a {
         top: 150px;
         max-width: 600px;
     }
+
+    /* Thank you page */
+    #thank-you-main {
+        width: 90%;
+        margin: 150px auto 20px auto;
+    }
 }
 
 /* For laptops and larger */
@@ -474,5 +480,15 @@ a {
     /* Contact-form */
     #contact-form {
         top: 5vh;
+    }
+
+    /* Thank you page */
+    /* Larger top-margin so that the section is fully visible under the nav bar */
+    #thank-you-main {
+        margin: 180px auto 20px auto;
+    }
+
+    #thank-you-main h2 {
+        font-size: 180%;
     }
 }
