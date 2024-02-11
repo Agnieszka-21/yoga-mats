@@ -197,6 +197,7 @@ table {
     flex-grow: 1;
     flex-shrink: 1;
     margin-bottom: 20px;
+    color: #101C24;
 }
 
 thead th {
@@ -227,7 +228,7 @@ table i {
 }
 
 .yellow {
-    color: #FCFC99;
+    color: #FCE883;
 }
 
 .red {
