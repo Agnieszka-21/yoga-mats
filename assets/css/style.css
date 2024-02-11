@@ -124,6 +124,7 @@ main {
     width: 100%;
     background: url('../images/yoga-mats-1920.webp') no-repeat center center / cover;
     position: relative;
+    margin-bottom: 10px;
 }
 
 /* Cover text for hero image - based on Love Running */
@@ -368,8 +369,10 @@ footer {
 
     /* Cover text for hero section */
     #cover-text {
-        width: 300px;
+        width: 350px;
+        min-height: 200px;
         right: 50px;
+        font-size: 200%;
     }
 
     /* Responsive table on the choose-mat page */
