@@ -366,6 +366,43 @@ a {
     color: #4A1861;
 }
 
+/* 404 page */
+#error-body {
+    background-color: rgba(252, 242, 255, 0.8);
+}
+
+#error-main {
+    width: 90%;
+    margin: 100px auto 20px auto;
+}
+
+#error-main>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#error-main #error-icon {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#error-main h2 {
+    color: #4A1861;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+    padding: 30px 0;
+    font-size: 200%;
+}
+
+#error-main i {
+    font-size: 800%;
+    color: #4A1861;
+}
+
+a {
+    color: #4A1861;
+}
 
 
 /* Media queries for responsive design */
@@ -439,10 +476,14 @@ a {
 
     /* Thank you page */
     #thank-you-main {
-        width: 90%;
         margin: 150px auto 20px auto;
     }
-}
+
+    /* Thank you page */
+    #error-main {
+        margin: 150px auto 20px auto;
+    }
+    }
 
 /* For laptops and larger */
 @media screen and (min-width: 992px) {
@@ -491,4 +532,13 @@ a {
     #thank-you-main h2 {
         font-size: 180%;
     }
+
+        /* 404 error page - page not found */
+        /* Larger top-margin so that the section is fully visible under the nav bar */
+        #error-main {
+            margin: 180px auto 20px auto;
+        }
+    
+        #error-main h2 {
+            font-size: 180%;
 }
