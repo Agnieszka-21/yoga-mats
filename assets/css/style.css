@@ -140,7 +140,7 @@ main {
 }
 
 /* From Love Running, styling for the entire section - will be the same on the choose-mat and thank-you page */
-#mat-types, {
+#mat-types {
     width: 90%;
     margin: 20px auto;
 }
@@ -330,6 +330,10 @@ footer {
 }
 
 /* Thank you page */
+#thank-you-body {
+    background-color: rgba(252, 242, 255, 0.8);
+}
+
 #thank-you-main {
     width: 90%;
     margin: 100px auto 20px auto;
@@ -338,15 +342,27 @@ footer {
 #thank-you-main > div {
     line-height: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #thank-you-main #checkmark {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+#thank-you-main h2 {
+    color: #4A1861;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+    padding: 30px 0;
 }
 
 #thank-you-main i {
     font-size: 800%;
+    color: #4A1861;
+}
+
+a {
     color: #4A1861;
 }
 
