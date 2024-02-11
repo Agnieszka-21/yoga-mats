@@ -179,12 +179,19 @@ main {
     margin-bottom: 20px;
 }
 
-#top-div {
+#choose-mat h2 {
     margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 110%;
 }
 
 #questions-list {
     margin-left: 20px;
+}
+
+#questions-list li {
+    padding-bottom: 5px;
 }
 
 /* Table styling - still needs to grow on mobile so it fills the space */
