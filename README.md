@@ -1,12 +1,10 @@
 # Yoga Mats
 
-Yoga Mats is a site that educates yoga aficionados about different types of yoga mats available on the market and helps them choose a mat that best suits their needs so that they stay motivated and enjoy their practice. It will be useful for both beginners and seasoned practitioners, taking into account their practical requirements, the style of yoga they practice, and other common factors that influence the type of mat they need. 
+Yoga Mats is a site that educates yoga aficionados about different types of yoga mats available on the market and helps them choose a mat that best suits their needs so that they stay motivated and enjoy their practice. It will be useful for both beginners and seasoned practitioners, taking into account their practical requirements, the style of yoga they practice, and other common factors that influence the type of mat they need.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive mockup]()
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
@@ -24,19 +22,12 @@ In this section, you should go over the different parts of your project, and des
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __The Yoga Mat Types Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+  - The yoga mat types section will allow the user to be aware of multiple types of yoga mats available on the market. It will also explain the most important differences between them, taking into account the mat's weight & thickness, as well as materials & durability.
+  - This user will gain the essential knowledge they need in order to choose a mat that suits their unique needs.
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __The Footer__
 
@@ -45,9 +36,12 @@ In this section, you should go over the different parts of your project, and des
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Choose your mat__
+- __The Choose Your Mat Page__
 
-  - The Choose your mat page will provide the user with a list of questions to help them make an informed decision, a table to easily compare different types of mats and their suitability for different needs, as well as an embedded YouTube video with a tutorial on the same topic.
+  - The Choose your mat page will provide the user with the following:
+    - a list of questions to help them make an informed decision,
+    - a table to easily compare different types of mats and their suitability for different needs,
+    - as well as an embedded YouTube video with a tutorial on the same topic.
   - This section is valuable to the user as they will be able to easily decide which type of yoga mat is best for their unique needs and practice style.
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
@@ -58,9 +52,14 @@ In this section, you should go over the different parts of your project, and des
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- __The Thank You Page__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - This page will be shown only after submitting a message through the Contact us page. It will reassure the user that their message has been sent and that Yoga Mats will respond soon.
+  - This page includes the same navigation bar and footer as the other pages, as well as an additional link to the homepage in the main part of the page, making it easy for the user to find their way without using the 'back' button.
+
+- __The 404 Error Page__
+  - This page will be shown only if the browser cannot find the correct page. It will provide the user with the same navigation bar and footer as other pages, as well as a link to the homepage to easily redirect them to the page they are looking for.
+  - Project file .htaccess supports the functionality of this page, making sure that it is displayed by the browser when needed.
 
 ### Features Left to Implement
 
@@ -104,8 +103,8 @@ The following tutorials, articles, documentation and media were used to create t
 ### Content
 
 - The text for the homepage was taken from the blog article [How to Choose a Yoga Mat](https://www.rei.com/learn/expert-advice/yoga-gear.html)
-- The text and table for the choose-your-mat page ware loosely based on the above article as well.
-- Instructions on how to implement a hidden nav bar for mobile devices were taken from the Code Institute's project Love Running. 
+- The text and table for the Choose your mat page ware loosely based on the above article as well.
+- Instructions on how to implement a hidden nav bar for mobile devices were taken from the Code Institute's project Love Running.
 - Instructions on how to implement multiple sizes for images were taken from [this MDN doc](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 - Instructions on embedding a responsive YouTube video were taken from [this article](https://www.avexdesigns.com/blog/responsive-youtube-embed/)
 - Instructions on how to create a custom 404 error page were taken from [this article](https://www.htmldog.com/techniques/404/)
@@ -113,22 +112,5 @@ The following tutorials, articles, documentation and media were used to create t
 
 ### Media
 
-- The photos used on the homepage and contact page are from [Pixabay](https://pixabay.com/), an open source site.
-- The video used for the choose-your-mat page was embedded from [YouTube](https://www.youtube.com/watch?v=29uJqw-BWvg).
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message
-  - Make sure to keep the messages in the imperative mood
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
+- The photos used on the Homepage and Contact page are from [Pixabay](https://pixabay.com/), an open source site.
+- The video used for the Choose your mat page was embedded from [YouTube](https://www.youtube.com/watch?v=29uJqw-BWvg).
