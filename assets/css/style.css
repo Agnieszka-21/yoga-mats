@@ -485,6 +485,7 @@ a {
     #contact {
         background-image: url('../images/green-mat-1920.webp');
         background-position: center;
+        display: flex;
     }
 
     #contact-form {
@@ -492,6 +493,7 @@ a {
         right: 10%;
         top: 150px;
         max-width: 600px;
+        flex-grow: 1;
     }
 
     /* Thank you page */
@@ -546,7 +548,7 @@ a {
 
     /* Contact-form */
     #contact-form {
-        top: 5vh;
+        top: 20vh;
     }
 
     /* Thank you page */
