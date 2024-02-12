@@ -123,7 +123,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url('../images/yoga-mats-min-1920.webp') no-repeat center center / cover;
+    background: url('../images/yoga-mats-1920-min.webp') no-repeat center center / cover;
     position: relative;
     margin-bottom: 10px;
 }
