@@ -23,57 +23,66 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <header>
-        <a href="index.html" id="logo" aria-label="Yoga Mats logo. Click to go to the homepage">
-            <h1>Yoga Mats</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label" aria-label="Menu icon. Tap here to open"><i
-                class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html" aria-label="Click here to go to the homepage">Home</a></li>
-                <li><a href="choose-mat.html" aria-label="Click here to go to the choose your mat page">Choose your mat</a></li>
-                <li><a href="contact-us.html" class="active" aria-label="Click here to go to the contact us page">Contact us</a></li>
+    <div class="wrapper">
+
+        <!-- Header -->
+        <header>
+            <a href="index.html" id="logo" aria-label="Yoga Mats logo. Click to go to the homepage">
+                <h1>Yoga Mats</h1>
+            </a>
+            <input type="checkbox" id="nav-toggle" name="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Menu icon. Tap here to open"><i
+                    class="fa-solid fa-bars"></i></label>
+            <nav>
+                <ul id="menu">
+                    <li><a href="index.html" aria-label="Click here to go to the homepage">Home</a></li>
+                    <li><a href="choose-mat.html" aria-label="Click here to go to the choose your mat page">Choose your
+                            mat</a></li>
+                    <li><a href="contact-us.html" class="active"
+                            aria-label="Click here to go to the contact us page">Contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main content -->
+        <main>
+            <section id="contact" aria-label="Background image - a rolled-up yoga mat">
+                <form method="GET" action="thank-you.html" id="contact-form">
+                    <h2>More questions about yoga mats? We're happy to help!</h2>
+                    <label for="name">your name: </label>
+                    <input type="text" name="name" id="name" class="text-input" autocomplete="given-name" required>
+                    <label for="email">your email: </label>
+                    <input type="email" name="email" id="email" class="text-input" autocomplete="email" required>
+                    <label for="message">your message: </label>
+                    <textarea name="message" id="message" class="textarea-input" placeholder="Type your message here"
+                        autocomplete="off" required></textarea>
+                    <button type="submit" class="submit-button"
+                        aria-label="A send button - click to send your message">send</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <ul id="social-media">
+                <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram account (opens in a new tab)"><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter account (opens in a new tab)"><i
+                            class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
+                        aria-label="Visit our YouTube channel (opens in a new tab)"><i
+                            class="fa-brands fa-youtube"></i></a>
+                </li>
             </ul>
-        </nav>
-    </header>
+        </footer>
 
-    <!-- Main content -->
-    <main>
-        <section id="contact" aria-label="Background image - a rolled-up yoga mat">
-            <form method="GET" action="thank-you.html" id="contact-form">
-                <h2>More questions about yoga mats? We're happy to help!</h2>
-                <label for="name">your name: </label>
-                <input type="text" name="name" id="name" class="text-input" autocomplete="given-name" required>
-                <label for="email">your email: </label>
-                <input type="email" name="email" id="email" class="text-input" autocomplete="email" required>
-                <label for="message">your message: </label>
-                <textarea name="message" id="message" class="textarea-input" placeholder="Type your message here" autocomplete="off" required></textarea>
-                <button type="submit" class="submit-button" aria-label="A send button - click to send your message">send</button>
-            </form>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <ul id="social-media">
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram account (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter account (opens in a new tab)"><i
-                        class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube channel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-        </ul>
-    </footer>
-
+    </div>
 </body>
 
 </html>
