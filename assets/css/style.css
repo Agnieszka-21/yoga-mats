@@ -322,7 +322,7 @@ table i {
     border-radius: 10px;
     background-color: #4A1861;
     color: #fff;
-}
+}    
 
 /* Footer */
 footer {
@@ -355,6 +355,8 @@ footer {
 #thank-you-main {
     width: 90%;
     margin: 100px auto 20px auto;
+    /* To ensure all text is visible when a mobile phone is rotated*/
+    padding-bottom: 100px;
 }
 
 #thank-you-main>div {
@@ -392,6 +394,8 @@ a {
 #error-main {
     width: 90%;
     margin: 100px auto 20px auto;
+    /* To ensure all text is visible when a mobile phone is rotated*/
+    padding-bottom: 100px;
 }
 
 #error-main>div {
@@ -424,15 +428,6 @@ a {
 
 
 /* Media queries for responsive design */
-
-/* For screens from 400px 
-@media screen and (min-width: 400px) {
-    th, td {
-        width: 4rem;
-        height: 1.5rem;
-    }
-}
-*/
 
 /* For screens from 550px */
 @media screen and (min-width: 550px) {
@@ -532,7 +527,7 @@ a {
         margin: 150px auto 20px auto;
     }
 
-    /* Thank you page */
+    /* 404 error page */
     #error-main {
         margin: 150px auto 20px auto;
     }
