@@ -223,6 +223,8 @@ th {
     text-align: center;
     padding: 4px 4px;
     line-height: 10px;
+    width: 2rem;
+    height: 1.5rem;
 }
 
 .th-left {
@@ -232,6 +234,8 @@ th {
 td {
     text-align: center;
     line-height: 10px;
+    width: 2rem;
+    height: 1.5rem;
 }
 
 table i {
@@ -421,10 +425,41 @@ a {
 
 /* Media queries for responsive design */
 
+/* For screens from 400px 
+@media screen and (min-width: 400px) {
+    th, td {
+        width: 4rem;
+        height: 1.5rem;
+    }
+}
+*/
+
+/* For screens from 550px */
+@media screen and (min-width: 550px) {
+    /* Cover text for hero section - separate from the edge of screen on the right */
+    #cover-text {
+        width: 350px;
+        right: 25px;
+    }
+
+    /* Responsive table on the choose-mat page */
+    table {
+        flex-grow: 0.5;
+        font-size: 90%;
+    }
+
+    th,
+    td {
+        line-height: 20px;
+        width: 4rem;
+        height: 3.5rem;
+    }
+}
+
 /* For tablets and larger */
 @media screen and (min-width: 768px) {
 
-    /* Bigger logo */
+    /* Bigger logo - from Love Running */
     #logo {
         font-size: 200%;
         line-height: 75px;
@@ -476,17 +511,6 @@ a {
 
     #questions-list li {
         padding-bottom: 5px;
-    }
-
-    /* Responsive table on the choose-mat page */
-    table {
-        flex-grow: 0.5;
-        font-size: 90%;
-    }
-
-    th,
-    td {
-        line-height: 30px;
     }
 
     /* Contact page */
