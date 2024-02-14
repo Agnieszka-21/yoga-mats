@@ -18,6 +18,13 @@ body {
     color: #101C24;
 }
 
+/* Wrapper div */
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -487,14 +494,13 @@ a {
         background-image: url('../images/green-mat-1920.webp');
         background-position: center;
         display: flex;
+        justify-content: flex-end;
     }
 
     #contact-form {
-        position: absolute;
-        right: 10%;
-        top: 150px;
         max-width: 600px;
         flex-grow: 1;
+        align-self: center;
     }
 
     /* Thank you page */
@@ -571,16 +577,26 @@ a {
     #error-main h2 {
         font-size: 180%;
     }
-
-    /* Wrapper div to contain the page on larger screens
+}
+    
+/* Wrapper div to contain the page on screens above 1920px */
+@media screen and (min-width: 1920px) {
     .wrapper {
-        max-width: 1920px;
-        margin: 0 auto;
+        width: 1920px;
+        align-self: center;
     }
 
     .wrapper header, .wrapper footer {
-        max-width: 1920px;
-        margin: 0 auto;
+        width: 1920px;
+        align-self: center;
     }
-    */
+
+    #thank-you-main, #error-main {
+        margin-top: 250px;
+    }
+
+    #thank-you-body, #error-body {
+        width: 1920px;
+        align-self: center;
+    }
 }    
