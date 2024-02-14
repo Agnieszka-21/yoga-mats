@@ -25,7 +25,7 @@ body {
     flex-direction: column;
 }
 
-/* Header */
+/* Header - based on the Code Institute's Love Running project  */
 header {
     background-color: #ffffff;
     padding: 1rem 1rem;
@@ -88,7 +88,7 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle from Love Running */
+/* Nav toggle - based on the Code Institute's project Love Running */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -102,7 +102,8 @@ nav {
     color: #4A1861;
 }
 
-/* Hiding class, making content visible to screen-readers but not visually - toggle Menu */
+/* Hiding class, making content visible to screen-readers but not visually - Toggle Menu span in the label with FA menu icon.
+Based on an article from css-tricks.com */
 .sr-only:not(:focus):not(:active) {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
@@ -113,7 +114,7 @@ nav {
     width: 1px;
 }
 
-/* Main content */
+/* Main content - based on the Code Institute's Love Running project */
 main {
     flex: 1 0 auto;
     margin-top: 60px;
@@ -132,7 +133,7 @@ main {
     margin-bottom: 10px;
 }
 
-/* Cover text for hero image - based on Love Running */
+/* Cover text for hero image - based on the Code Institute's Love Running project  */
 #cover-text {
     background-color: rgba(252, 242, 255, 0.8);
     font-size: 130%;
@@ -144,7 +145,7 @@ main {
     padding: 20px 20px;
 }
 
-/* From Love Running, styling for the entire section - will be the same on the choose-mat and thank-you page */
+/* Home - section mat-types - based on the Code Institute's Love Running project */
 #mat-types {
     width: 90%;
     margin: 20px auto;
@@ -170,12 +171,12 @@ main {
 
 /* Yoga-grey image on mobile devices - home */
 #yoga-grey img,
-#woman-mat img {
+#yoga-pink img {
     width: 100%;
     margin-bottom: 20px;
 }
 
-/* Choose-mat page */
+/* Choose your mat page - section choose-mat - nearly identical to the mat-types section for a coherent visual effect */
 #choose-mat {
     width: 90%;
     margin: 20px auto;
@@ -254,7 +255,7 @@ table i {
     color: #FB6962;
 }
 
-/* Video - embedded from YouTube */
+/* Video - embedded from YouTube, based on a blog article from avexdesigns.com */
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -271,7 +272,7 @@ table i {
     height: 100%;
 }
 
-/* Contact page - based on Love Running sign-up page*/
+/* Contact page - loosely based on the Love Running sign-up page*/
 #contact {
     background-image: url('../images/green-mat-1080.webp');
     background-size: cover;
@@ -322,13 +323,14 @@ table i {
     border-radius: 10px;
     background-color: #4A1861;
     color: #fff;
-}    
+}
 
-/* Footer */
+
+/* Footer - based on the Code Institute's Love Running project */
 footer {
     background-color: #ffffff;
     width: 100%;
-    /* Make the footer stick to the bottom of the page and be always visible */
+    /* Make the footer stick to the bottom of the page so that it's always visible */
     position: fixed;
     bottom: 0;
 }
@@ -347,7 +349,7 @@ footer {
     color: #4A1861;
 }
 
-/* Thank you page */
+/* Thank you page - shown when a user sends their message through the contact form*/
 #thank-you-body {
     background-color: rgba(252, 242, 255, 0.8);
 }
@@ -386,7 +388,7 @@ a {
     color: #4A1861;
 }
 
-/* 404 page */
+/* 404 error page - very similar to the thank you page for a coherent visual effect */
 #error-body {
     background-color: rgba(252, 242, 255, 0.8);
 }
@@ -431,6 +433,7 @@ a {
 
 /* For screens from 550px */
 @media screen and (min-width: 550px) {
+
     /* Cover text for hero section - separate from the edge of screen on the right */
     #cover-text {
         width: 350px;
@@ -454,14 +457,14 @@ a {
 /* For tablets and larger */
 @media screen and (min-width: 768px) {
 
-    /* Bigger logo - from Love Running */
+    /* Bigger logo - based on the Code Institute's Love Running project */
     #logo {
         font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
 
-    /* Nav bar*/
+    /* Nav bar - based on the Code Institute's Love Running project*/
     nav {
         display: block;
         position: relative;
@@ -471,7 +474,7 @@ a {
     }
 
     #hero {
-        background: url('../images/yoga-mats-1920.webp') no-repeat center center / cover;    
+        background: url('../images/yoga-mats-1920.webp') no-repeat center center / cover;
     }
 
     #menu {
@@ -491,7 +494,7 @@ a {
         margin-top: 120px;
     }
 
-    /* Cover text for hero section */
+    /* Cover text for hero section - loosely based on the Code Institute's Love Running project */
     #cover-text {
         width: 350px;
         min-height: 200px;
@@ -499,16 +502,12 @@ a {
         font-size: 200%;
     }
 
-    /* Choose-mat page, h2 lower*/
+    /* Choose-mat page, h2 lower to keep it visible under the bigger header */
     #choose-mat h2 {
         margin-top: 35px;
     }
 
-    #questions-list li {
-        padding-bottom: 5px;
-    }
-
-    /* Contact page */
+    /* Contact page styled with flexbox */
     #contact {
         background-image: url('../images/green-mat-1920.webp');
         background-position: center;
@@ -522,14 +521,14 @@ a {
         align-self: center;
     }
 
-    /* Thank you page */
+    /* Thank you page - increase top margin to make the main content visible under the larger header */
     #thank-you-main {
-        margin: 150px auto 20px auto;
+        margin-top: 150px;
     }
 
-    /* 404 error page */
+    /* 404 error page - increase top margin to make the main content visible under the larger header */
     #error-main {
-        margin: 150px auto 20px auto;
+        margin-top: 150px;
     }
 }
 
@@ -541,7 +540,7 @@ a {
         font-weight: bold;
     }
 
-    /* Styling for mat-types div on the home page */
+    /* Styling for mat-types div on the home page -  loosely based on the Code Institute's Love Running project */
     #mat-types {
         column-count: 2;
         column-gap: 50px;
@@ -558,8 +557,8 @@ a {
 
     /* Contact page */
     #contact {
-    background-image: url('../images/green-mat-2560.webp');
-    }    
+        background-image: url('../images/green-mat-2560.webp');
+    }
 
     .text-input:hover,
     .textarea-input:hover {
@@ -577,8 +576,7 @@ a {
         top: 20vh;
     }
 
-    /* Thank you page */
-    /* Larger top-margin so that the section is fully visible under the nav bar */
+    /* Thank you page - larger top-margin so that the section is fully visible under the nav bar & larger h2 font*/
     #thank-you-main {
         margin-top: 180px;
     }
@@ -587,35 +585,37 @@ a {
         font-size: 180%;
     }
 
-    /* 404 error page - page not found */
-    /* Larger top-margin so that the section is fully visible under the nav bar */
+    /* 404 error page - larger top-margin so that the section is fully visible under the nav bar & larger h2 font*/
     #error-main {
         margin-top: 180px;
     }
-    
+
     #error-main h2 {
         font-size: 180%;
     }
 }
-    
-/* Wrapper div to contain the page on screens above 1920px */
+
+/* Screens 1920px wide and above - contain the page so it is no wider than 1920px */
 @media screen and (min-width: 1920px) {
     .wrapper {
         width: 1920px;
         align-self: center;
     }
 
-    .wrapper header, .wrapper footer {
+    .wrapper header,
+    .wrapper footer {
         width: 1920px;
         align-self: center;
     }
 
-    #thank-you-main, #error-main {
+    #thank-you-main,
+    #error-main {
         margin-top: 250px;
     }
 
-    #thank-you-body, #error-body {
+    #thank-you-body,
+    #error-body {
         width: 1920px;
         align-self: center;
     }
-}    
+}
