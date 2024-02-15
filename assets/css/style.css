@@ -382,9 +382,8 @@ footer {
     padding: 30px 0;
 }
 
-#thank-you-main i {
-    font-size: 800%;
-    color: #4A1861;
+#thank-you-main path {
+    fill: #4A1861;
 }
 
 a {
@@ -425,9 +424,8 @@ a {
     font-size: 200%;
 }
 
-#error-main i {
-    font-size: 800%;
-    color: #4A1861;
+#error-main path {
+    fill: #4A1861;
 }
 
 a {
