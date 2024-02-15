@@ -106,8 +106,8 @@ All images depict colourful yoga mats, either rolled up or being used for a yoga
   - This page is valuable to the user as they will be able to easily decide which type of yoga mat is best for their unique needs and practice style.
 
 ![List](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-how-min.png)
-![Table]()
-![Video tutorial]()
+![Table](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-table-min.png)
+![Video tutorial](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-video-min.png)
 
 - __The Contact Us Page__
 
