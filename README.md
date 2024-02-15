@@ -72,14 +72,14 @@ All images depict colourful yoga mats, either rolled up or being used for a yoga
   - It is identical on each page to allow for easy navigation and visual coherence.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar]()
+![Nav Bar](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-nav-min.png)
 
 - __The homepage hero image__
 
   - The homepage includes a photograph with text overlay to allow the user to see exactly what this site is about.
   - This section introduces the user to Yoga Mats with an eye catching image to grab their attention.
 
-![Home Page]()
+![Home Page](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-hero-min.png)
 
 - __The Yoga Mat Types Section__
 
@@ -87,14 +87,15 @@ All images depict colourful yoga mats, either rolled up or being used for a yoga
   - The user will gain the essential knowledge they need in order to choose a mat that suits their unique needs.
   - Two images are included to add some visual interest. On smaller screens they break up the text (everything is shown in one column) while on larger screens, the content is divided into 2 columns, with an image at the bottom of either column.
 
-![Mat Types Section]()
+![Mat Types Section - part 1](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-types1-min.png)
+![Mat Types Section - part 2](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-types2-min.png)
 
 - __The Footer__
 
   - The footer section includes links to the relevant social media sites for Yoga Mats. The links will open to a new tab to allow easy navigation for the user.
   - The footer is valuable to the user as it encourages them to keep connected via social media. Since it is fixed, it is always visible and easily accessible on all devices.
 
-![Footer]()
+![Footer](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-footer-min.png)
 
 - __The Choose Your Mat Page__
 
@@ -104,24 +105,30 @@ All images depict colourful yoga mats, either rolled up or being used for a yoga
     - as well as an embedded YouTube video with a tutorial on the same topic.
   - This page is valuable to the user as they will be able to easily decide which type of yoga mat is best for their unique needs and practice style.
 
-![Gallery]()
+![List](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-how-min.png)
+![Table]()
+![Video tutorial]()
 
 - __The Contact Us Page__
 
   - This page will allow the user to send a message to Yoga Mats to ask any questions on the topic of yoga mats. This way the user will be able to receive more personalized guidance. 
   - The user is asked to submit their first name, email address, and their message (all three are required fields to send a message).
 
-![Sign Up]()
+![Contact](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-contact-min.png)
 
 - __The Thank You Page__
 
   - This page will be shown only after submitting a message through the Contact us page. It will reassure the user that their message has been sent and that Yoga Mats will respond soon.
   - This page includes the same navigation bar and footer as the other pages, as well as an additional link to the homepage, making it easy for the user to find their way without using the 'back' button.
 
+![Thank You](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-thankyou-min.png)
+
 
 - __The 404 Error Page__
   - This page will be shown only if the browser cannot find the correct page. It will provide the user with the same navigation bar and footer as other pages, as well as a link to the homepage to easily redirect them to the place they are looking for.
   
+![404 error](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-404-min.png)
+
 
 ### Features Left to Implement
 
