@@ -1,6 +1,6 @@
 # Yoga Mats
 
-![Responsive mockup]()
+![Responsive mockup](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/responsive-home-min.png)
 
 ## Introduction
 
@@ -44,7 +44,7 @@ A shade of black (#101C24) is used for any regular and bold text in the main par
 - __Chartreuse__ 
 Since the background image on the Contact us page introduces a bold chartreuse colour (#B4B535), the same colour is also used in the form, when hovering over the input fields and the "send" button on laptops and larger screens.
 
-![Contrast Grid]()
+![Contrast Grid](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/contrast-grid-min.png)
 
 - __Green, yellow, and red (table)__ 
 The table on the Choose your mat page uses green, red, and yellow emoji icons to depict how suitable each mat type is in a simple and widely-understandable way for those who prefer visual materials. A slightly pastel shade of each of these colours ensures that the icons do not take the user's attention away from the main colour scheme of the site. Since the colours themselves have a very clear symbolic meaning, contrast is in this case not as important as it is with any text elements. 
@@ -159,16 +159,16 @@ If this section grows too long, you may want to split it off into a separate fil
 
 | Page tested | View tested | Outcome of the audit | Solution applied | Screenshot of clear validator output |
 | :---------- | :---------- | :------------------- | :--------------- | :----------------------------------- |
-| Home | mobile | performance slowed down by images | used smaller size images for mobile | --------- |
-| Home | desktop | good | N/A | --------- |
-| Choose your mat | mobile | good | N/A | --------- |
-| Choose your mat | desktop | good | N/ | --------- |
-| Contact us | mobile | good | N/A | --------- |
-| Contact us | desktop | good | N/A | --------- |
-| Thank you | mobile | performance slowed down by a large FA icon | used the icon as svg  | --------- |
-| Thank you | desktop | performance slowed down by a large FA icon | used the icon as svg  | --------- |
-| 404 | mobile | performance slowed down by a large FA icon | used the icon as svg | --------- |
-| 404 | desktop | performance slowed down by a large FA icon | used the icon as svg  | --------- |
+| Home | mobile | performance slowed down by images | used smaller size images for mobile | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-home-mobile-min.png) |
+| Home | desktop | good | N/A | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-home-desktop-min.png) |
+| Choose your mat | mobile | good | N/A | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-choose-mobile-min.png) |
+| Choose your mat | desktop | good | N/ | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-choose-desktop-min.png) |
+| Contact us | mobile | good | N/A | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-contact-mobile-min.png) |
+| Contact us | desktop | good | N/A | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-contact-desktop-min.png) |
+| Thank you | mobile | performance slowed down by a large FA icon | used the icon as svg  | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-thankyou-mobile-min.png) |
+| Thank you | desktop | performance slowed down by a large FA icon | used the icon as svg  | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-contact-desktop-min.png) |
+| 404 | mobile | performance slowed down by a large FA icon | used the icon as svg | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-404-mobile-min.png) |
+| 404 | desktop | performance slowed down by a large FA icon | used the icon as svg  | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-404-desktop-min.png) |
 
 ### Wave Webaim - accessibility testing
 
