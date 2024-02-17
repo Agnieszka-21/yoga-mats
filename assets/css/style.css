@@ -324,7 +324,6 @@ table i {
     color: #fff;
 }
 
-
 /* Footer - based on the Code Institute's Love Running project */
 footer {
     background-color: #ffffff;
@@ -430,7 +429,6 @@ a {
 a {
     color: #4A1861;
 }
-
 
 /* Media queries for responsive design */
 
@@ -571,7 +569,6 @@ a {
     .submit-button:hover {
         background-color: #B4B535;
         color: #101C24;
-        ;
     }
 
     /* Contact-form */
@@ -600,14 +597,12 @@ a {
 
 /* Screens 1920px wide and above - contain the page so it is no wider than 1920px */
 @media screen and (min-width: 1920px) {
-    .wrapper {
-        width: 1920px;
-        align-self: center;
-    }
 
+    .wrapper,
     .wrapper header,
     .wrapper footer {
-        width: 1920px;
+        max-width: 1920px;
+        width: 100%;
         align-self: center;
     }
 
@@ -618,7 +613,8 @@ a {
 
     #thank-you-body,
     #error-body {
-        width: 1920px;
+        max-width: 1920px;
+        width: 100%;
         align-self: center;
     }
 }
