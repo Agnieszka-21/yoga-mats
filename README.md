@@ -6,9 +6,33 @@
 
 Yoga Mats is a site that educates yoga aficionados about different types of yoga mats available on the market and helps them choose a mat that best suits their needs so that they stay motivated and enjoy their practice. It will be useful for both beginners and seasoned practitioners, taking into account their practical requirements, the style of yoga they practice, and other common factors that influence the type of mat they need.
 
-
 ## Table of Contents
 
+- [Yoga Mats](#yoga-mats)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+  - [User Experience](#user-experience)
+    - [User Stories](#user-stories)
+  - [Design](#design)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Features Left to Implement](#features-left-to-implement)
+  - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
+    - [Lighthouse](#lighthouse)
+    - [Wave Webaim - accessibility testing](#wave-webaim---accessibility-testing)
+    - [Manual Testing](#manual-testing)
+    - [Fixed Bugs](#fixed-bugs)
+    - [Unfixed Bugs](#unfixed-bugs)
+  - [Technologies Used](#technologies-used)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
 
 ## User Experience
 
@@ -47,7 +71,7 @@ Since the background image on the Contact us page introduces a bold chartreuse c
 ![Contrast Grid](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/contrast-grid-min.png)
 
 - __Green, yellow, and red (table)__ 
-The table on the Choose your mat page uses green, red, and yellow emoji icons to depict how suitable each mat type is in a simple and widely-understandable way for those who prefer visual materials. A slightly pastel shade of each of these colours ensures that the icons do not take the user's attention away from the main colour scheme of the site. Since the colours themselves have a very clear symbolic meaning, contrast is in this case not as important as it is with any text elements. 
+The table on the Choose your mat page uses green, red, and yellow emoji icons to depict how suitable each mat type is in a simple and widely-understandable way for those who prefer visual materials. A slightly pastel shade of each of these colours ensures that the icons do not take the user's attention away from the main colour scheme of the site. Since the colours themselves have a clear symbolic meaning, contrast is in this case secondary. 
 
 ### Typography
 
@@ -55,12 +79,12 @@ Two font families are imported from Google fonts and used across all pages:
 
 - __Libre Franklin, weight 300__  
 A sans-serif font, Libre Franklin is used for the Logo (h1) and any headings (h2, h3). The headings on pages Home and Choose your mat are uppercase to provide more variety since these pages are rich in text content. The headings on pages with significantly less text (Contact, Thank you, and 404) are lowercase to convey simplicity and accessibility, communicating an informal and inviting character of the site.
+
 - __Schibsted Grotesk, weight 400 and 700__
 Also a sans-serif font, Schibsted Grotesk is used for any regular and bold text that is not a heading. It is easily legible and complements Libre Franklin, conveying the same values of simplicity and accessibility. 
 
 ### Imagery
-All images depict colourful yoga mats, either rolled up or being used for a yoga practice, making it easy for the user to understand the subject of the site at a glance. 
-
+All images depict colourful yoga mats, either rolled up or being used by yoga practicioners, making it easy for the user to understand the subject of the site at a glance. 
 
 ## Features
 
@@ -123,26 +147,17 @@ All images depict colourful yoga mats, either rolled up or being used for a yoga
 
 ![Thank You](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-thankyou-min.png)
 
-
 - __The 404 Error Page__
   - This page will be shown only if the browser cannot find the correct page. It will provide the user with the same navigation bar and footer as other pages, as well as a link to the homepage to easily redirect them to the place they are looking for.
   
 ![404 error](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-404-min.png)
 
-
 ### Features Left to Implement
 
-- Another feature idea...
+- A separate page for the Yoga Mats' online shop where the user can purchase their ideal mat.
+- Yoga Mats' Instagram feed ebedded in the website.
 
 ## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ### Validator Testing
 
@@ -314,16 +329,20 @@ No errors were found:
 | Firefox | 404 - main | good | good |
 | Firefox | 404 - footer | good | good |
 
+### Fixed Bugs
+
+- Most images were initially too large in the mobile version, and even though they had been compressed and converted to webp file type, they were slowing down the site's loading time. The fix was very straightforward and included resizing pictures to the optimal size before compressing and converting them. 
+- The large Font Awesome icons in the central part of the 404 and Thank you pages were affecting performance as well. The issue was resolved by adding the icons to the html code of these pages as svg files instead.
+- The positioning of the contact form was visually unsatisfactory on Nest Hub at first (tested with Dev Tools). The bug was fixed by using flexbox to control the placement of the form so that it looked good on all devices.
+
 ### Unfixed Bugs
 
-The embedded YouTube video on mobile phones works well in the regular view but in the rotated view it is too large to be fully shown on the screen in its entirety without scrolling down/up. The bug has not been fixed since it is unlikely to impair the user experience in a significant way - the user can always switch back to the regular view, or choose to open the video directly on YouTube instead so the feature still works as intended.
-
+- The embedded YouTube video on mobile phones works well in the regular view but in the rotated view it is too large to be fully shown on the screen in its entirety without scrolling down/up. The bug has not been fixed since it is unlikely to impair user experience in a significant way - the user can always switch back to the regular view or choose to open the video directly on YouTube instead, so the feature still works as intended.
 
 ## Technologies Used
 
 Code languages used: HTML and CSS.
-Software used: VS Code and Codeanywhere.
-
+Software used: Codeanywhere and VS Code.
 
 ## Deployment
 
@@ -350,9 +369,9 @@ The following tutorials, articles, documentation and media were used to create t
 
 - The text for the homepage was taken from the blog article [How to Choose a Yoga Mat](https://www.rei.com/learn/expert-advice/yoga-gear.html)
 - The text and table for the Choose your mat page ware loosely based on the above article as well.
-- Instructions on how to implement a hidden nav bar for mobile devices were taken from the Code Institute's project [Love Running](https://github.com/Code-Institute-Org/love-running-2.0)
+- Instructions on how to implement a hidden nav bar for mobile devices were taken from the Code Institute's project [Love Running](https://github.com/Code-Institute-Org/love-running-2.0). Some further features and their styling were also based on Love Running initially, evolving as the project grew and became more distinct (among others the header, the footer, the hero section, the css wildcard selector...). All these instances are marked directly in the css code using comments to clarify which parts were influenced by Love Running.
 - Insturctions on making the nav bar visible for screen-readers while being invisible on smaller screens (toggle Menu) were taken from [this article](https://www.scottohara.me/blog/2023/03/21/visually-hidden-hack.html )
-- Instructions on how to implement multiple sizes for images were taken from [this MDN doc](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+- Instructions on how to implement multiple sizes for images were taken from [this MDN document](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 - Instructions on embedding a responsive YouTube video were taken from [this article](https://www.avexdesigns.com/blog/responsive-youtube-embed/)
 - Instructions on how to create a custom 404 error page were taken from [this article](https://www.htmldog.com/techniques/404/)
 - The icons in the footer, mobile navigation bar, as well as on the thank you and 404 pages were taken from [Font Awesome](https://fontawesome.com/)
@@ -361,5 +380,9 @@ The following tutorials, articles, documentation and media were used to create t
 
 - The photos used on the Homepage and Contact page are from [Pixabay](https://pixabay.com/), an open source site.
 - The video used for the Choose your mat page was embedded from [YouTube](https://www.youtube.com/watch?v=29uJqw-BWvg).
+
+### Acknowledgements
+
+I would like to express my gratitude to my mentor, Matt Bodden, whose specific suggestions and highly practical advice helped me ensure that this project meets the required criteria and that it leads to a positive response in terms of user experience.
 
 [Back to top](#top)
