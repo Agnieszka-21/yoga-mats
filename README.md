@@ -19,14 +19,13 @@ Yoga Mats is a site that educates yoga aficionados about different types of yoga
     - [Imagery](#imagery)
   - [Features](#features)
     - [Existing Features](#existing-features)
-    - [Features Left to Implement](#features-left-to-implement)
+    - [Potential Future Features](#potential-future-features)
   - [Testing](#testing)
     - [Validator Testing](#validator-testing)
     - [Lighthouse](#lighthouse)
     - [Wave Webaim - accessibility testing](#wave-webaim---accessibility-testing)
     - [Manual Testing](#manual-testing)
     - [Fixed Bugs](#fixed-bugs)
-    - [Unfixed Bugs](#unfixed-bugs)
   - [Technologies Used](#technologies-used)
   - [Deployment](#deployment)
   - [Credits](#credits)
@@ -160,7 +159,7 @@ All images depict colourful yoga mats, either rolled up or being used by yoga pr
   
 ![404 error](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/feat-404-min.png)
 
-### Features Left to Implement
+### Potential Future Features
 
 - A separate page for the Yoga Mats' online shop where the user can purchase their ideal mat.
 - Yoga Mats' Instagram feed ebedded in the website.
@@ -189,16 +188,16 @@ All images depict colourful yoga mats, either rolled up or being used by yoga pr
 
 | Page tested | View tested | Outcome of the audit | Solution applied | Screenshot of clear validator output |
 | :---------- | :---------- | :------------------- | :--------------- | :----------------------------------- |
-| Home | mobile | performance slowed down by images | used smaller size images for mobile | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-home-mobile-min.png) |
-| Home | desktop | good | N/A | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-home-desktop-min.png) |
-| Choose your mat | mobile | good | N/A | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-choose-mobile-min.png) |
-| Choose your mat | desktop | good | N/ | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-choose-desktop-min.png) |
-| Contact us | mobile | good | N/A | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-contact-mobile-min.png) |
-| Contact us | desktop | good | N/A | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-contact-desktop-min.png) |
-| Thank you | mobile | performance slowed down by a large FA icon | used the icon as svg  | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-thankyou-mobile-min.png) |
-| Thank you | desktop | performance slowed down by a large FA icon | used the icon as svg  | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-contact-desktop-min.png) |
-| 404 | mobile | performance slowed down by a large FA icon | used the icon as svg | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-404-mobile-min.png) |
-| 404 | desktop | performance slowed down by a large FA icon | used the icon as svg  | [!Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-404-desktop-min.png) |
+| Home | mobile | performance slowed down by images | used smaller size images for mobile | ![Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-home-mobile-min.png) |
+| Home | desktop | good | N/A | ![Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-home-desktop-min.png) |
+| Choose your mat | mobile | good | N/A | ![Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-choose-mobile-min.png) |
+| Choose your mat | desktop | good | N/ | ![Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-choose-desktop-min.png) |
+| Contact us | mobile | good | N/A | ![Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-contact-mobile-min.png) |
+| Contact us | desktop | good | N/A | ![Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-contact-desktop-min.png) |
+| Thank you | mobile | performance slowed down by a large FA icon | used the icon as svg  | ![Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-thankyou-mobile-min.png) |
+| Thank you | desktop | performance slowed down by a large FA icon | used the icon as svg  | ![Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-contact-desktop-min.png) |
+| 404 | mobile | performance slowed down by a large FA icon | used the icon as svg | ![Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-404-mobile-min.png) |
+| 404 | desktop | performance slowed down by a large FA icon | used the icon as svg  | ![Clear validator output](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/lighthouse-404-desktop-min.png) |
 
 ### Wave Webaim - accessibility testing
 
@@ -343,10 +342,6 @@ No errors were found:
 - The large Font Awesome icons in the central part of the 404 and Thank you pages were affecting performance as well. The issue was resolved by adding the icons to the html code of these pages as svg files instead.
 - The positioning of the contact form was visually unsatisfactory on Nest Hub at first (tested with Dev Tools). The bug was fixed by using flexbox to control the placement of the form so that it looked good on all devices.
 
-### Unfixed Bugs
-
-- The embedded YouTube video on mobile phones works well in the regular view but in the rotated view it is too large to be fully shown on the screen in its entirety without scrolling down/up. The bug has not been fixed since it is unlikely to impair user experience in a significant way - the user can always switch back to the regular view or choose to open the video directly on YouTube instead, so the feature still works as intended.
-
 ## Technologies Used
 
 Code languages used: HTML and CSS.
@@ -360,7 +355,7 @@ The site was deployed to GitHub pages. The steps to deploy were as follows:
 - From the source section drop-down menu, select the Main Branch
 - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - <https://agnieszka-21.github.io/yoga-mats/index.html>
+The live link can be found here: <https://agnieszka-21.github.io/yoga-mats/index.html>
 
 In order to clone the repository:
 - Use the following link: [https://github.com/Agnieszka-21/yoga-mats.git](https://github.com/Agnieszka-21/yoga-mats.git)
