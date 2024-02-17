@@ -32,7 +32,7 @@ Yoga Mats is a site that educates yoga aficionados about different types of yoga
   - [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
-    - [Acknowledgements](#acknowledgements)
+  - [Acknowledgements](#acknowledgements)
 
 ## User Experience
 
@@ -54,34 +54,42 @@ Yoga Mats is a site that educates yoga aficionados about different types of yoga
 ### Colour Scheme
 
 - __Purple__ 
-Purple (#4A1861), often associated with yoga and widely known as a popular color of the first yoga mats, is the main color of the site. It is used for the Logo, any navigational Font Awesome icons (the menu icon for mobile devices as well as social media icons in the footer), any headings, as box-shadow color for the header/nav bar, and also for the centrepiece icons and hyperlink text on pages Thank You and 404. It corresponds well with the hero image, which shows mats in multiple colours, purple being one of them. 
+  - Purple (#4A1861), often associated with yoga and widely known as a popular color of the first yoga mats, is the main color of the site. 
+  - It is used for the Logo, any navigational Font Awesome icons (the menu icon for mobile devices as well as social media icons in the footer), any headings, as box-shadow color for the header/nav bar, and also for the centrepiece icons and hyperlink text on pages Thank You and 404. 
+  - It corresponds well with the hero image, which shows mats in multiple colours, purple being one of them. 
 
 - __Light Purple__ 
-A very light shade of purple (#FCF2FF, in the style.css file used in its rgba version) is used as a background color for cover text in the hero section of the homepage, for the contact form, and also for the  pages Thank You and 404, which are designed in a more minimalistic style.
+  - A very light shade of purple (#FCF2FF, in the style.css file used in its rgba version) is used as a background color for cover text in the hero section of the homepage, for the contact form, and also for the  pages Thank You and 404, which are designed in a more minimalistic style.
+  - It provides great contrast for both purple and black (text colours on the site) and at the same time helps create a simple, minimalistic colour palette, complementing the main brand colour, purple, monochromatically.
 
 - __White__ 
-White (#FFFFFF) is used as clean, simple background color on the homepage and the Choose your mat page, as well as in the header and footer of all 5 pages, providing high contrast for any text and images.
+  - White (#FFFFFF) is used as clean, simple background color on the homepage and the Choose your mat page, as well as in the header and footer of all 5 pages, providing high contrast for any text and images.
 
 - __Black__ 
-A shade of black (#101C24) is used for any regular and bold text in the main part of each page, as well as in the navigation bar, providing excellent contrast with a white or light purple background. 
+  - A shade of black (#101C24) is used for any regular and bold text in the main part of each page, as well as in the navigation bar, providing excellent contrast with a white or light purple background. 
 
 - __Chartreuse__ 
-Since the background image on the Contact us page introduces a bold chartreuse colour (#B4B535), the same colour is also used in the form, when hovering over the input fields and the "send" button on laptops and larger screens.
+  - Since the background image on the Contact us page introduces a bold chartreuse colour (#B4B535), the same colour is also used in the form when hovering over the input fields and the "send" button on laptops and larger screens.
 
 ![Contrast Grid](https://github.com/Agnieszka-21/yoga-mats/blob/main/assets/documentation/contrast-grid-min.png)
 
 - __Green, yellow, and red (table)__ 
-The table on the Choose your mat page uses green, red, and yellow emoji icons to depict how suitable each mat type is in a simple and widely-understandable way for those who prefer visual materials. A slightly pastel shade of each of these colours ensures that the icons do not take the user's attention away from the main colour scheme of the site. Since the colours themselves have a clear symbolic meaning, contrast is in this case secondary. 
+  - The table on the Choose your mat page uses green, red, and yellow emoji icons to depict how suitable each mat type is in a simple and widely-understandable way for those who prefer visual materials. 
+  - A slightly pastel shade of each of these colours ensures that the icons do not take the user's attention away from the main colour scheme of the site. 
+  - Since the colours themselves have a clear symbolic meaning, contrast is in this case secondary. 
 
 ### Typography
 
 Two font families are imported from Google fonts and used across all pages:
 
 - __Libre Franklin, weight 300__  
-A sans-serif font, Libre Franklin is used for the Logo (h1) and any headings (h2, h3). The headings on pages Home and Choose your mat are uppercase to provide more variety since these pages are rich in text content. The headings on pages with significantly less text (Contact, Thank you, and 404) are lowercase to convey simplicity and accessibility, communicating an informal and inviting character of the site.
+  - A sans-serif font, Libre Franklin is used for the Logo (h1) and any headings (h2, h3). 
+  - The headings on pages Home and Choose your mat are uppercase to provide more variety since these pages are rich in text content. 
+  - The headings on pages with significantly less text (Contact, Thank you, and 404) are lowercase to convey simplicity and accessibility, communicating an informal and inviting character of the site.
 
 - __Schibsted Grotesk, weight 400 and 700__
-Also a sans-serif font, Schibsted Grotesk is used for any regular and bold text that is not a heading. It is easily legible and complements Libre Franklin, conveying the same values of simplicity and accessibility. 
+  - Also a sans-serif font, Schibsted Grotesk is used for any regular and bold text that is not a heading. 
+  - It is easily legible and complements Libre Franklin, conveying the same values of simplicity and accessibility. 
 
 ### Imagery
 All images depict colourful yoga mats, either rolled up or being used by yoga practicioners, making it easy for the user to understand the subject of the site at a glance. 
@@ -381,7 +389,7 @@ The following tutorials, articles, documentation and media were used to create t
 - The photos used on the Homepage and Contact page are from [Pixabay](https://pixabay.com/), an open source site.
 - The video used for the Choose your mat page was embedded from [YouTube](https://www.youtube.com/watch?v=29uJqw-BWvg).
 
-### Acknowledgements
+## Acknowledgements
 
 I would like to express my gratitude to my mentor, Matt Bodden, whose specific suggestions and highly practical advice helped me ensure that this project meets the required criteria and that it leads to a positive response in terms of user experience.
 
